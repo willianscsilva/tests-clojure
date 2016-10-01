@@ -22,7 +22,7 @@
                :dbtype "mysql"
                :dbname "teste"
                :user "root"
-               :password "sac;201!"})
+               :password "pass"})
 
 (defn select-product []
     (j/query mysql-db
